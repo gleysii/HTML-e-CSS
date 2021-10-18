@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+{
+
+    font-family: arial, helvetica, sans-serif;
+    height: 100;
+}
+
+body{
+    font-family: 'Benne'; serif;/**por entre aspas**/
+    background-image: linear-gradient(to right, #7C838A, #B0BAC3);
+    font-size:  1em;
+    
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.973);
+    width: 600px;
+    padding:10px;/**uma espécie de "moldura"**/
+    margin: auto;/**muda de acordo com o tamanho da janela**/
+    border-radius: 10px;/**arredondar bordas**/
+    box-shadow: 5px 5px 15px #45494d9c;/**sombra**/
+}
+
+h1{
+    font-family: 'Bethlove';
+    color: #C3B2AF;
+    text-shadow: 1px 1px 2px;
+    
+}
+
+h1#principal{/**um id para o título principal**/
+    color:white;
+    background-color: #7C838A;
+    text-align: center;
+    
+}
+
+h2{
+    text-shadow: 0,8px 0,8px 0,8px; 
+}
+
+p{/**paragrafos**/
+  text-align: justify;
+
+}

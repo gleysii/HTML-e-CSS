@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+     
+     body{
+         background-color: dimgrey;
+         font-family: white;
+         
+     }
+
+     header{
+         padding-top: 20px;
+         padding-bottom: 10px;
+         background-color: rgb(234, 231, 240);
+         height: 150px;
+         text-align: center;
+         color:rgb(10, 10, 10);
+         font-size: 1.2em;
+         margin-bottom: 5px;
+         
+         
+     }
+
+     nav{
+         background-color: cadetblue;
+         padding:10px;
+         border: solid black;
+         box-shadow: 1px 3px 1px rgba(0, 0, 0, 0.671);
+         
+     }
+
+     nav > a{
+         text-decoration: none;
+         color: black;
+         text-align: left;
+
+
+     }
+
+     nav > a:hover{
+        text-decoration: underline;
+        color:white;
+     }
+
+     main{
+         background-color: white;
+         padding:10px;
+         border-radius: 10px 40px;
+     }
+
+      p{
+        font-family: arial;
+        font-size: 15;
+      }
+
+     .noticias{
+         width: 800px;
+         background-color: white;
+         box-shadow: 1px 3px 1px rgba(0, 0, 0, 0.671);
+         
+
+
+     }
+
+     article{
+         background-color: rgb(162, 206, 206);
+         padding:5px;
+     }
+     
+     article > aside{
+        background-color: rgb(136, 172, 172);
+     }
+
+     footer{
+         background-color:rgb(90, 88, 88);
+         height: 100px;
+         text-align: left;
+         padding-left: 20px;
+         padding-top: 10px;
+         color:rgb(170, 169, 170);
+         text-align: center;
+     }
+
+
+
+    </style>
+</head>
+<body> 
+    <header><!--cabeçalho-->
+        <h1 id="título">Estrutura do site</h1><!--No HTML trabalhamos com semântica, o que é melhor que trabalhar com muitas divs-->
+        <nav><!--menu-->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main><!--código principal, os mecanismos de busca vão valorizar mais o conteúdo daqui para baixo-->
+
+        <section id="noticias"><!--divisão-->
+            <h2>Notícias</h2>
+            <article><!--subdivisão-->
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque nam, aperiam beatae officiis dolores doloremque praesentium earum iste possimus quis voluptates recusandae aliquid numquam, est molestias quia voluptatem ut? Eligendi?</p>
+                
+                <aside>Escrito por josé da silva</aside>
+
+            </article>
+
+            <article>
+
+            </article>
+
+        </section>
+       <section id="assuntos">
+        <h2>Assuntos</h2>
+        <article>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque nam, aperiam beatae officiis dolores doloremque praesentium earum iste possimus quis voluptates recusandae aliquid numquam, est molestias quia voluptatem ut? Eligendi?</p>
+        <aside>Escrito por ana mattos</aside>
+        </article>
+
+           <section>
+        
+    </main>
+    <footer><!--Rodapé-->
+          <p>Desenvolvido por Gleysi da Silva</p>
+    </footer>
+</html>
